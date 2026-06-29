@@ -67,23 +67,30 @@ The current implementation considers the following network topologies and coupli
 ## Repository Structure
 
 ```
-src/
-    Core MATLAB functions
+hastings-powell-network-dynamics/
+│
+├── README.md
+├── LICENSE
+├── requirements.txt
+│
+├── src/  
+│   ├── hp_rhs.mlx
+│   ├── lattice_laplacian_2D.mlx
+│   ├── poincare_rect.mlx
+│   └── phase_from_crossings.mlx
+│
+├── scripts/
+│   ├── run_scan.py
+│   ├── reproduce_fig2.py
+│   └── reproduce_fig3.py
+│
+├── data/
+│
+├── figures/
+│
+└── docs/
+     └── report.md
 
-examples/
-    Scripts reproducing the main simulations
-
-figures/
-    Generated figures
-
-animations/
-    Movies of synchronization and lattice evolution
-
-docs/
-    Theory, equations and numerical methods
-
-results/
-    Simulation outputs
 ```
 
 ---
