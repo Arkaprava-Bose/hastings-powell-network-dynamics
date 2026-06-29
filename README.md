@@ -137,28 +137,6 @@ Representative results:
 
 ---
 
-## Reproducing Results
-
-Run the example scripts in order.
-
-```
-examples/
-
-01_isolated_hp.m
-
-02_chain_synchronization.m
-
-03_lattice_synchronization.m
-
-04_psd_analysis.m
-
-05_boundary_conditions.m
-```
-
-Each script reproduces one section of the project.
-
----
-
 ## References
 
 1. Hastings & Powell (1991) — Chaos in a Three-Species Food Chain.
