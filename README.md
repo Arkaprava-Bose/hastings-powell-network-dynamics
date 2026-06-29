@@ -1,14 +1,11 @@
 # Synchronization and Spatiotemporal Dynamics in Networks of Chaotic Hastings–Powell Oscillators
 
-MATLAB implementation of the Hastings–Powell three-species food chain model on complex networks, investigating synchronization, diffusion-driven dynamics and emergent spatiotemporal behaviour.
-
----
-
 ## Overview
 
-The Hastings–Powell model is a three-species predator–prey system exhibiting rich nonlinear dynamics, including periodic oscillations and deterministic chaos.
+The Hastings–Powell model is a simple three-species predator–prey system capable of exhibiting chaotic behaviour biogolically realizeable parameter regimes [1] . We study a system where such patches are allowed to communicate via diffusion. In such a system, competition between divergent local dynamics and convergent diffusive convergence governs the network dynamics. Therefore exhibiting **Chaos Synchronization**.
 
-This repository investigates how local chaotic dynamics evolve into collective behaviour when oscillators are coupled through diffusion on different network topologies.
+Finally, in the work of Janaki et al. [5], we analyse spatio-temporal patterns in Rozenwig-McArthur wich atmost shows oscillatory behaviour in . We consider the Hastings-Powell as the natural extension of this where interest ourselves in exploring spatio-temporal patterns in chaotic regime of an isolated patch.
+
 
 Current work:
 
@@ -31,8 +28,7 @@ Currently under investigation:
 ## Mathematical Model
 
 For an isolated oscillator, the Hastings-Powell model considers a three-trophic food chain where x, y and z represent basal resource (vegetation) , consumer (herbivore) and top predator (carnivore).Basal resource is considered to have logistic growth and predation by consumer, consumers grow by predation over basal population and exhibits exponential natural death and predation by top predators. Top-predators grow via predation on consumers and exhibits exponential natural death.  The response of predation is modeled by Holling Type II functional response. Consumer and top predators are considered to be more mobile than basal resource.
-Therefore spacial coupling is introduced only through consumers and
-predators.
+Therefore spacial coupling is introduced only through consumers and predators.
 
 $$
 \frac{dX_i}{dT} =
