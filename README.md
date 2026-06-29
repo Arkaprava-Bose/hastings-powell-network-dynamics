@@ -4,7 +4,7 @@
 
 The Hastings–Powell model is a simple three-species predator–prey system capable of exhibiting chaotic behaviour biogolically realizeable parameter regimes [1] . We study a system where such patches are allowed to communicate via diffusion. In such a system, competition between divergent local dynamics and convergent diffusive convergence governs the network dynamics. Therefore exhibiting **Chaos Synchronization**.
 
-Finally, in the work of Janaki et al. [5], we analyse spatio-temporal patterns in Rozenwig-McArthur wich atmost shows oscillatory behaviour in . We consider the Hastings-Powell as the natural extension of this where interest ourselves in exploring spatio-temporal patterns in chaotic regime of an isolated patch.
+Finally, in the work of Janaki et al. [5], we analyse spatio-temporal patterns in Rozenwig-McArthur which atmost shows oscillatory behaviour in an isolated patch. We consider the Hastings-Powell in chaotic regime as the natural extension of this.
 
 
 Current work:
