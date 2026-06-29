@@ -12,11 +12,6 @@ Current work:
 - Chaotic dynamics of the isolated oscillator
 - Synchronization in one-dimensional chains
 - Synchronization in two-dimensional lattices
-- Degree-normalized diffusion
-- Phase synchronization
-- Complete synchronization
-- Spectral analysis using PSD
-- Effect of boundary conditions
 
 Currently under investigation:
 
