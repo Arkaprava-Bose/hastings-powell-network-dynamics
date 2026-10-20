@@ -1,4 +1,4 @@
-# Synchronization and Spatiotemporal Dynamics in Networks of Chaotic Hastings–Powell Oscillators
+# Synchronization in Network of Chaotic Hastings–Powell Oscillators
 
 ## Overview
 
